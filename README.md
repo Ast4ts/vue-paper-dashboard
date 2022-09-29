@@ -1,6 +1,3 @@
-## NEW CHANGES
-
-
 # [Vue Paper Dashboard](https://cristijora.github.io/vue-paper-dashboard/)
 
 > Admin dashboard based on paper dashboard UI template + vue-router
@@ -17,6 +14,12 @@ Check the [Live Demo here](https://cristijora.github.io/vue-paper-dashboard).
 Link to [Documentation](http://vuejs.creative-tim.com/vue-paper-dashboard/documentation/)
 
 ## Build Setup
+
+### build in docker
+
+docker build -t paper_dashboard .
+
+docker run -itd -p 8080:8080 paper_dashboard:latest bash ./deploy.sh
 
 ### install dependencies
 ```
