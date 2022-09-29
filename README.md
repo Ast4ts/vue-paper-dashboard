@@ -16,11 +16,12 @@ Link to [Documentation](http://vuejs.creative-tim.com/vue-paper-dashboard/docume
 ## Build Setup
 
 ### build in docker
-
+```
 docker build -t paper_dashboard .
-
+```
+```
 docker run -itd -p 8080:8080 paper_dashboard:latest bash ./deploy.sh
-
+```
 ### install dependencies
 ```
 npm install
